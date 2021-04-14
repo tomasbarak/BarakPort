@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="ProjectButton.css"/>
+    <link rel="stylesheet" href="AppsButton.css"/>
+    <link rel="stylesheet" href="ContactButton.css"/>
+    <link rel="icon" href=""/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="parallax.js"></script>
+</head>
+<body>
+<div class="container">
+    <ul id="scene">
+        <li class="layer" data-depth=".1">
+            <div class="btnSection">
+                <div class="header">
+                    <h1 class="headerTitle">BARAK</h1>
+                </div>
+                <div class="buttonCont">
+                    <a href="#Projects" class="projects">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        PROJECTS
+                    </a>
+
+                    <a href="#Apps" class="apps">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        APPS
+                    </a>
+
+                    <a href="#Contact" class="contact">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        CONTACT
+                    </a>
+                </div>
+
+                <span class="footer">
+        <span id="bottomShadow" style="box-shadow: 0 160px 50px #9a12de; width: 400px;height: 100px; background-color: #0f0f1c; border-radius: 50%; top: 200px"></span>
+    </span>
+            </div>
+        </li>
+    </ul>
+</div>
+<script>
+   // var scene = document.getElementById('scene');
+   // var parallax = new Parallax(scene);
+</script>
+
+<div name="Projects" class="projectsSection" >
+    <a name="Projects" class="projectIndex"></a>
+    <h1 class="projectHeaderTitle">Projects</h1>
+    <div class="projectsCont">
+        <a class="ProjectHover" href="Display3D.html" style="width: 350px; margin: 0px; padding: 0; background-color: transparent">
+            <div class="project1Cont">
+                <img class="project1" src="Display3DProject.png" alt="Display3D">
+                <div class="projectDescription" style="display: flex; flex-direction: column; align-items: center; padding: 10px">
+                    <p style="font-family: Azonix; font-weight: lighter; font-size: 24px; margin-top: 25px; margin-bottom: 10px">Display3D</p>
+                    <p style="font-family: Monda; font-weight: 0; color: white; font-size: 10px; line-height: 1.6;">The Display3D is a mechanical display that allows you to visualize 3D images and math graphics.</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+</body>
+</html>
