@@ -46,10 +46,6 @@ a {
     overflow: hidden;
     background-attachment: fixed;
 }
-.mixBlnd
-{
-    background-blend-mode: screen;
-}
 .btnSection{
     background-image: radial-gradient(#17172e 250px, #0f0f1c 500px);
 }
@@ -136,8 +132,10 @@ html{
 }
 .projectsCont{
     display: flex;
+    position: relative;
     height: 85%;
-    padding: 0px;
+    padding: 0;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
     flex-direction: row;

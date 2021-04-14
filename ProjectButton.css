@@ -1,4 +1,4 @@
-.projects:hover  #bottomShadow{
+.projects:hover{
     transition-delay: 1s;
     color: rgba(154, 18, 222, 1);
 }
@@ -73,15 +73,4 @@
     transform-origin: left;
     transition: transform 0.5s;
     transition-delay: 0.5s;
-}
-
-.projects:hover{
-    transition-delay: 1s;
-    color: rgba(154, 18, 222, 1);
-}
-.projects span{
-    display: block;
-    position: absolute;
-    background: #602080;
-    box-shadow: 0 0 10px #9a12de, 0 0 40px #9a12de;
 }
