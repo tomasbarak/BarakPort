@@ -51,7 +51,7 @@ a {
     background-blend-mode: screen;
 }
 .btnSection{
-    background-image: radial-gradient(#17172e 15%, #0f0f1c 50%);
+    background-image: radial-gradient(#17172e 250px, #0f0f1c 500px);
 }
 .buttonCont{
     display: flex;
